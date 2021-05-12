@@ -1,0 +1,8 @@
+<section *ngIf="user">
+  <img [src]="user.photo"><br>
+  <input #name type="text" [value]="user.name"><br>
+  <textarea #bio rows="20">
+    {{ user.bio }}
+  </textarea><br>
+  <button (click)="save(name.value, bio.value)">Save</button>
+</section>

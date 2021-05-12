@@ -1,0 +1,6 @@
+<section>
+  <div class="user" *ngFor="let user of users">
+    <h1>{{ user.name }} <a [routerLink]="'edit-user/' + user.id">[Edit]</a></h1>
+    <img [src]="user.photo">
+  </div>
+</section>

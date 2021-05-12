@@ -1,0 +1,10 @@
+.user {
+  display: inline-block;
+  width: 20%;
+  min-width: 200px;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+}
